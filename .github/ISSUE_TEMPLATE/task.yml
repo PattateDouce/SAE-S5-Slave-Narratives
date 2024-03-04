@@ -1,0 +1,19 @@
+name: Tâche
+description: Une tâche d'une US
+title: "[Task - US X] "
+labels: ["Task"]
+body:
+  - type: textarea
+    id: todo
+    attributes:
+      label: Liste des choses à faire
+      description: Étapes à suivre pour la tâche
+      placeholder: "- [ ] Coder\n- [ ] Tester\n- [ ] Documenter"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: US associée
+      placeholder: "- [ ] #1"
+    validations:
+      required: true

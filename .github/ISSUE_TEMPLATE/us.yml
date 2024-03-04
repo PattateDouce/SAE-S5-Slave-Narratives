@@ -1,0 +1,28 @@
+name: User Story
+description: Une User Story
+title: "[US X] "
+labels: ["US"]
+body:
+  - type: textarea
+    id: us
+    attributes:
+      label: User Story
+      description: Description de la story
+      placeholder: En tant que [persona], je veux [feature], afin que [raison].
+    validations:
+      required: true
+  - type: textarea
+    id: acceptation
+    attributes:
+      label: Critères d'acceptation
+      description: Comment sera évaluée la satisfaction de cette US, jeux de tests si disponibles, etc
+  - type: textarea
+    id: details
+    attributes:
+      label: Détails
+      description: Donner des détails si possible.
+  - type: textarea
+    attributes:
+      label: Tâches
+      description: Liste des issues associées à l'US
+      placeholder: "- [ ] #1"
